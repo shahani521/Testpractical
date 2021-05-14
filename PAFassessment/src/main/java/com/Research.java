@@ -182,6 +182,7 @@ package com;
 		preparedStmt.setString(3, number);
 		preparedStmt.setString(4, projname);
 		preparedStmt.setString(5, details );
+		preparedStmt.setInt(5,rID);
 		//execute the statement
 		preparedStmt.execute();
 		conn.close();
